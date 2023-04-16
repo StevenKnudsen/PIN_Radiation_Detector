@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "PIN_Radiation_Detector-rescue")(type "KiCad")(uri "${KIPRJMOD}/PIN_Radiation_Detector-rescue.kicad_sym")(options "")(descr ""))
+)

@@ -1,0 +1,23 @@
+.title KiCad schematic
+R1 Net-_C6-Pad1_ Net-_C1-Pad1_ 1M
+C1 Net-_C1-Pad1_ GND 100n
+C4 Net-_C4-Pad1_ Net-_C4-Pad2_ 47p
+C6 Net-_C6-Pad1_ GND 100u
+Q1 Net-_D1-Pad2_ Net-_Q1-Pad2_ Net-_C6-Pad1_ MMBF4392LT1G
+C2 Net-_C2-Pad1_ GND 100n
+C3 Net-_C3-Pad1_ GND 100n
+C7 Net-_C7-Pad1_ GND 100u
+R2 Net-_C7-Pad1_ Net-_C6-Pad1_ 2k
+R3 Net-_J1-Pad3_ Net-_C7-Pad1_ 100R
+R4 Net-_R4-Pad1_ Net-_D1-Pad2_ 10M
+R5 GND Net-_R4-Pad1_ 10M
+R6 GND Net-_Q1-Pad2_ 4k7
+R8 Net-_C4-Pad2_ Net-_C4-Pad1_ 330k
+R7 Net-_C2-Pad1_ Net-_C4-Pad2_ 10k
+R10 Net-_C5-Pad2_ Net-_C5-Pad1_ 330k
+R9 Net-_C3-Pad1_ Net-_C5-Pad2_ 10k
+J1 GND Net-_C5-Pad1_ Net-_J1-Pad3_ Conn_01x03
+C5 Net-_C5-Pad1_ Net-_C5-Pad2_ 47p
+D1 Net-_C1-Pad1_ Net-_D1-Pad2_ BPW34
+U1 Net-_C4-Pad1_ Net-_Q1-Pad2_ Net-_C4-Pad2_ GND Net-_C5-Pad2_ Net-_C4-Pad1_ Net-_C5-Pad1_ Net-_C7-Pad1_ LM358DR
+.end
