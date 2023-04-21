@@ -2,7 +2,7 @@
 
   (uuid a00c5c98-fc2a-45bd-9cd3-9a9345a76b2f)
 
-  (paper "A4")
+  (paper "USLetter")
 
   (title_block
     (title "PIN Diode Radiation Detector Breakout")
@@ -944,6 +944,16 @@
     (uuid fcc2979a-94c6-424b-9da5-c2b36f2d87a8)
   )
 
+  (text "3 - VCC (5V recommended for testing)\n2 - SIG_OUT\n1 - GND"
+    (at 219.71 92.71 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 5fb4519d-d1ec-46e2-afc7-673c9760ee15)
+  )
+  (text "PIN Diode" (at 86.36 60.96 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid e7c77553-f350-47f8-ab79-2b97774c978b)
+  )
+
   (symbol (lib_id "Sensor_Optical:BPW34") (at 85.09 64.77 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005d4f44b4)
@@ -1133,7 +1143,7 @@
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Conn_01x03" (at 215.392 88.9254 0)
-      (effects (font (size 1.27 1.27)) (justify left))
+      (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Footprint" "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" (at 213.36 90.17 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -1586,13 +1596,13 @@
     (pin "1" (uuid 82346beb-e230-4bcc-b3e0-2b962c5f79d2))
     (pin "2" (uuid 2fe2e48e-ff4e-4fdc-892b-22655b94c479))
     (pin "3" (uuid 6ad63b79-682c-4746-a6fd-68dbbb5b5c58))
-    (pin "4" (uuid 04f53249-4e5a-4dcf-a444-bca2167fee92))
-    (pin "8" (uuid cda0a173-0eb5-4e18-8ed5-d3d6ff2d455b))
-    (pin "4" (uuid 04f53249-4e5a-4dcf-a444-bca2167fee92))
+    (pin "4" (uuid 04f53249-4e5a-4dcf-a444-bca2167fee94))
+    (pin "8" (uuid cda0a173-0eb5-4e18-8ed5-d3d6ff2d455d))
+    (pin "4" (uuid 04f53249-4e5a-4dcf-a444-bca2167fee94))
     (pin "5" (uuid b86fac66-deb7-4c49-9565-310340816eb6))
     (pin "6" (uuid 76a01aa5-66c0-43af-8f29-c242998c5d39))
     (pin "7" (uuid 3f59f354-42a0-487d-aaa7-2ae7fda72d55))
-    (pin "8" (uuid cda0a173-0eb5-4e18-8ed5-d3d6ff2d455b))
+    (pin "8" (uuid cda0a173-0eb5-4e18-8ed5-d3d6ff2d455d))
     (instances
       (project "PIN_Radiation_Detector"
         (path "/a00c5c98-fc2a-45bd-9cd3-9a9345a76b2f"
@@ -1647,13 +1657,13 @@
     (pin "1" (uuid ef5561d5-6049-4424-8730-52b9e10bdd7f))
     (pin "2" (uuid e283d92d-ee2e-40de-b3af-63b609e5bb7c))
     (pin "3" (uuid ad49dff3-062e-449b-8368-4b524a938b06))
-    (pin "4" (uuid f7d3d205-ec8d-44f6-bbd9-35ec5a1efd53))
-    (pin "8" (uuid b6dabe2b-5313-4f8c-a6b8-183e9b21a135))
-    (pin "4" (uuid f7d3d205-ec8d-44f6-bbd9-35ec5a1efd53))
+    (pin "4" (uuid f7d3d205-ec8d-44f6-bbd9-35ec5a1efd55))
+    (pin "8" (uuid b6dabe2b-5313-4f8c-a6b8-183e9b21a137))
+    (pin "4" (uuid f7d3d205-ec8d-44f6-bbd9-35ec5a1efd55))
     (pin "5" (uuid b53465c1-27d5-4994-a204-34e07d632a67))
     (pin "6" (uuid 4947a500-f2f0-4c93-8d98-d0354da8f941))
     (pin "7" (uuid fde13ca5-ef6f-40a1-bc85-c62b364005e8))
-    (pin "8" (uuid b6dabe2b-5313-4f8c-a6b8-183e9b21a135))
+    (pin "8" (uuid b6dabe2b-5313-4f8c-a6b8-183e9b21a137))
     (instances
       (project "PIN_Radiation_Detector"
         (path "/a00c5c98-fc2a-45bd-9cd3-9a9345a76b2f"
