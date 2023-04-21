@@ -4,6 +4,7 @@
 # New Additions
 *-backups
 *auto_saved_files*
+.obsidian/
 
 # Temporary files
 *.000
